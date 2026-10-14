@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import Lattice from '$lib/components/Lattice.svelte';
   import { reveal } from '$lib/reveal.js';
   import { site, hero, about, contact } from '$lib/content.js';
@@ -18,7 +19,7 @@
 
 <div class="wrap">
   <nav>
-    <a class="logo" href="/">Open<b>BITS</b></a>
+    <a class="logo" href="{base}/">Open<b>BITS</b></a>
     <ul>
       <li><a href="#about">About</a></li>
     </ul>
