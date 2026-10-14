@@ -1,6 +1,7 @@
 <script>
   import { base } from '$app/paths';
-  import Lattice from '$lib/components/Lattice.svelte';
+  import Ring from '$lib/components/Ring.svelte';
+  import Logo from '$lib/components/Logo.svelte';
   import { reveal } from '$lib/reveal.js';
   import { site, hero, about, contact } from '$lib/content.js';
 </script>
@@ -15,11 +16,11 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Lattice />
+<Ring />
 
 <div class="wrap">
   <nav>
-    <a class="logo" href="{base}/">Open<b>BITS</b></a>
+    <a class="logo" href="{base}/"><Logo /> {site.name}</a>
     <ul>
       <li><a href="#about">About</a></li>
     </ul>
