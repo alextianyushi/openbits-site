@@ -9,4 +9,4 @@
   <path d="M-30.48 -34.45A46 46 0 0 1 -2.81 -45.91L-1.59 -25.95A26 26 0 0 0 -17.23 -19.47Z" fill="#00102a"/>
 </svg>
 
-<style>.mark { width: 24px; height: 24px; display: block; }</style>
+<style>.mark { width: 30px; height: 30px; display: block; }</style>

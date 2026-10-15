@@ -14,8 +14,10 @@ body { font-family: var(--body); font-weight: 300; font-size: 16px; line-height:
 a:focus-visible { outline: 1px solid var(--blue); outline-offset: 4px; }
 
 .wrap { position: relative; z-index: 1; padding-inline: clamp(16px, 5vw, 64px); }
-nav { display: flex; justify-content: space-between; align-items: center; padding-block: 28px; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+nav { display: flex; justify-content: space-between; align-items: center; padding-block: 40px 28px; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
 nav .logo { display: flex; align-items: center; gap: 10px; font-family: var(--body); font-weight: 400; font-size: 16px; letter-spacing: .01em; text-transform: none; color: var(--fg); text-decoration: none; }
+nav .logo .wordmark { display: flex; flex-direction: column; line-height: 1.2; }
+nav .logo .tagline { font-family: var(--mono); font-size: 10px; letter-spacing: .04em; color: var(--muted); }
 nav ul { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
 nav ul a { color: var(--muted); text-decoration: none; transition: color .3s; }
 nav ul a:hover { color: var(--fg); }

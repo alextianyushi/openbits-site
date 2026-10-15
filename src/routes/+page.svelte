@@ -20,7 +20,7 @@
 
 <div class="wrap">
   <nav>
-    <a class="logo" href="{base}/"><Logo /> {site.name}</a>
+    <a class="logo" href="{base}/"><Logo /><span class="wordmark"><span class="name">{site.name}</span><span class="tagline">{site.tagline}</span></span></a>
     <ul>
       <li><a href="#about">About</a></li>
     </ul>

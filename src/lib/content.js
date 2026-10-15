@@ -1,6 +1,7 @@
 // All site copy lives here. Edit text without touching layout code.
 export const site = {
   name: 'OpenBITS',
+  tagline: 'Open Blockchain Infrastructure for Trusted Systems',
   title: 'OpenBITS | Verifiable financial infrastructure',
   description:
     'Blockchain-enabled infrastructure that automates high-value financial workflows, with embedded controls and verifiable evidence at every step.',
